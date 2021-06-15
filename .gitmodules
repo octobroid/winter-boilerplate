@@ -1,0 +1,3 @@
+[submodule "plugins/jacob/horizon"]
+	path = plugins/jacob/horizon
+	url = https://github.com/jacobdekeizer/oc-horizon.git
