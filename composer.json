@@ -45,11 +45,6 @@
         "php-parallel-lint/php-parallel-lint": "^1.0",
         "dms/phpunit-arraysubset-asserts": "^0.1.0|^0.2.1"
     },
-    "autoload": {
-        "files": [
-            "config/helpers.php"
-        ]
-    },
     "autoload-dev": {
         "classmap": [
             "tests/concerns/InteractsWithAuthentication.php",
