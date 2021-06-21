@@ -316,13 +316,13 @@ return [
         'uploads' => [
             'disk'   => env('FILESYSTEM_DRIVER', 'local'),
             'folder' => 'uploads',
-            'path'   => env('FILESYSTEM_DRIVER', 'local') == 'local' ? '/storage/app/uploads' : ( env('GCS_CMS_PATH', 'https://storage.googleapis.com/pln-mobile-b6bca.appspot.com') . '/uploads' ),
+            'path'   => env('CMS_STORAGE_UPLOAD_PATH', '/storage/app/uploads'),
         ],
 
         'media' => [
             'disk'   => env('FILESYSTEM_DRIVER', 'local'),
             'folder' => 'media',
-            'path'   => env('FILESYSTEM_DRIVER', 'local') == 'local' ? '/storage/app/media' : ( env('GCS_CMS_PATH', 'https://storage.googleapis.com/pln-mobile-b6bca.appspot.com') . '/media' ),
+            'path'   => env('CMS_STORAGE_MEDIA_PATH', '/storage/app/media'),
         ],
 
     ],
