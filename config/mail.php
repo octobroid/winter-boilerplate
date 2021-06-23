@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => 'noreply@domain.tld', 
-        'name'    => env('APP_NAME', 'My App')
+        'address' => env('MAIL_EMAIL_SENDER', 'noreply@domain.tld'), 
+        'name'    => env('MAIL_NAME_SENDER', 'My App')
     ],
 
     /*
